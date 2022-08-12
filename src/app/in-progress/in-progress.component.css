@@ -1,0 +1,38 @@
+/*Typing Animation*/
+.typing-grid {
+    padding-top: 10px;
+    height: 40em; 
+    display: grid;
+    place-items: center;
+    background-color: black;
+  }
+    
+  .typing-demo {
+    width: 16ch;
+    animation: typing 1s steps(16), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    border-right-color: #730071;
+    font-family: monospace;
+    color: white;
+    font-size: 5em;
+  }
+      
+  @keyframes typing {
+    from {
+    width: 0
+    }
+  }
+    
+  @keyframes blink {
+    50% {
+    border-color: transparent
+    }
+  }
+
+  p{
+      font-family: monospace;
+      color: white;
+      font-size: 25px;
+  }

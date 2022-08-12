@@ -1,0 +1,159 @@
+.parent {
+    padding-bottom: 6rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+  
+  .child {
+    padding: 2rem;
+  }
+  
+  .grid-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  
+    .typing-grid {
+      padding-top: 35px;
+      height: 12em; 
+      display: grid;
+      place-items: center;
+      background-color: black;
+      
+    }
+  
+    .typing-demo {
+      width: 8ch;
+      animation: typing 1s steps(8), blink .5s step-end infinite alternate;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid;
+      border-right-color: #730071;
+      font-family: monospace;
+      color: white;
+      font-size: 5em;
+    }
+    
+    @keyframes typing {
+      from {
+        width: 0
+      }
+    }
+        
+    @keyframes blink {
+      50% {
+        border-color: transparent
+      }
+    }
+  
+.black-section{
+  background-color: black;
+  height: 400px;
+}
+
+.white-section{
+  background-color: white;
+  height: 400px;
+}
+
+.flex-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-parent2{
+  display: flex;
+  align-content: flex-end;
+}
+
+.flex-child{
+  padding: 80px;
+}
+
+.git{
+  flex-grow: 4;
+}
+
+
+.text{
+  flex-grow: 1;
+}
+
+.icon {
+
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  border-radius: 50%;
+  outline: 2px solid #fff;
+  transition-property:
+      outline-offset, outline-color,
+      background-color;
+  transition-duration: .25s;
+  margin: 25px 12px 25px 10px;
+}
+
+.black-icon{
+  color: black;
+  outline: 3px solid black;
+}
+
+.white-icon{
+  color: white;
+  outline: 3px solid white;
+}
+
+.icon:hover {
+  outline-offset: 4px;
+}
+
+.icon:hover i {
+  animation: shake .25s;
+}
+
+.icon--github:hover {
+  background-color: #2ea44f;
+  outline-color: #2ea44f;
+}
+
+.tags{
+  font-family: monospace;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+  margin: 8px;
+}
+
+.c-title{
+  margin: 10px;
+  font-family: 'Russo One', sans-serif;
+  font-size: 50px;
+  color: white;
+}
+
+.c-title-w{
+  margin: 10px;
+  font-family: 'Russo One', sans-serif;
+  font-size: 50px;
+  color: black;
+}
+
+.black-border{
+    width: 500px;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+.white-border{
+  width: 500px;
+  border-radius: 10px;
+  border: 5px solid rgb(51, 51, 51);
+}
