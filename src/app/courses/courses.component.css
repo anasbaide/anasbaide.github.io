@@ -1,7 +1,7 @@
 /*General*/
 
 .col-back{
-  background: #dccdb5;
+  background: black;
 }
 
 .parent {
@@ -60,7 +60,7 @@ p{
 /*Typing Animation*/
 
   .typing-grid {
-    height: 12em; 
+    padding-top: 60px;
     display: grid;
     place-items: center;
   }
@@ -436,4 +436,14 @@ p{
   .card__content {
     opacity: 1;
     transition-delay: .75s;
+}
+
+p{
+  font-family: monospace;
+  color: white;
+  font-size: 21px;
+}
+
+.pad{
+  padding-bottom: 30px;
 }

@@ -2,9 +2,7 @@
   
 /*Typing Animation*/
 .typing-grid {
-  height: 66vh; 
-  display: grid;
-  place-items: center;
+  height: 80px; 
 }
 
 .typing-demo {
@@ -15,6 +13,7 @@
   border-right: 3px solid;
   border-right-color: #730071;
   font-family: monospace;
+  color: black;
   font-size: 5em;
 }
 
@@ -32,9 +31,6 @@
 
 /*General Styling*/
 
-p{
-  font-family: monospace;
-}
 
 .center-grid {
   display: grid;
@@ -42,7 +38,7 @@ p{
 }
 
 .grid-parent {
-  background: #dccdb5;
+  background: white;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -132,7 +128,7 @@ img {
 }
 
 .pad{
-  padding-bottom: 10vh;
+  padding-bottom: 8vh;
 }
 
 .mouse-wheel {
@@ -157,13 +153,10 @@ img {
     }
 }
 
-
-
-
 .title {
   position: relative;
   font-family: monospace;
-  color: #fff;
+  color: black;
   font-size: 35px;
 }
 .rotate-words {
@@ -173,7 +166,7 @@ img {
 .rotate-words span {
   width: max-content;
   position: absolute;
-  background-color: #37123C;
+  background-color: #17BEBB;
   padding-inline: 10px;
   opacity: 0;
   transform-origin: 10% 75%;
@@ -207,9 +200,11 @@ img {
 }
 
 h1 {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 90px;
   font-weight: 900;
-  text-transform: uppercase;
   position: relative;
+}
+
+p{
+  font-family: monospace;
 }

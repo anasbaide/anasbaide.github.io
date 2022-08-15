@@ -4,6 +4,7 @@
     height: 12em; 
     display: grid;
     place-items: center;
+    background-color: black;
   }
 
   .typing-demo {
@@ -15,10 +16,11 @@
     border-right-color: #17BEBB;
     font-family: monospace;
     font-size: 5em;
-    color: black;
+    color: white;
   }
 
   .divider-grid {
+    background-color: black;
     display: grid;
     place-items: center;
     justify-content: center;
@@ -52,32 +54,32 @@
   width: 80%;
   height: 80%;
   border-radius: 50%;
-  background-color: white;
+  background-color: black;
 }
 
 .skill:nth-child(1){
-  background-image: conic-gradient(#000000 90%, transparent 0);
-  color: #000000;
+  background-image: conic-gradient(white 90%, transparent 0);
+  color: white;
 }
 
 .skill:nth-child(2){
-  background-image: conic-gradient(#000000 70%, transparent 0);
-  color: #000000;
+  background-image: conic-gradient(white 70%, transparent 0);
+  color: white;
 }
 
 .skill:nth-child(3){
-  background-image: conic-gradient(#000000 60%, transparent 0);
-  color: #000000;
+  background-image: conic-gradient(white 60%, transparent 0);
+  color: white;
 }
 
 .skill:nth-child(4){
-  background-image: conic-gradient(#000000 40%, transparent 0);
-  color: #000000;
+  background-image: conic-gradient(white 40%, transparent 0);
+  color: white;
 }
 
 .skill:nth-child(5){
-  background-image: conic-gradient(#000000 30%, transparent 0);
-  color: #000000;
+  background-image: conic-gradient(white 30%, transparent 0);
+  color: white;
 }
 
 .content{

@@ -33,7 +33,7 @@
       border-right-color: #730071;
       font-family: monospace;
       font-size: 5em;
-      color: white;
+      color: black;
     }
     
     @keyframes typing {
@@ -62,9 +62,9 @@
         justify-content: center;
         text-decoration: none;
         font-size: 26px;
-        color: #fff;
+        color: #000;
         border-radius: 50%;
-        outline: 2px solid #fff;
+        outline: 2px solid #000;
         transition-property:
             outline-offset, outline-color,
             background-color;
